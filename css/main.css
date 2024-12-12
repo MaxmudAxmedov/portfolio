@@ -419,4 +419,22 @@ ol {
   padding: 6px 12px;
   color: var(--mainColor);
   border-radius: 8px;
+}
+
+.about-section {
+  padding: 60px 0;
+}
+
+.about-content {
+  width: 70%;
+}
+
+.about-content--title {
+  color: var(--mainColor);
+  font-size: 50px;
+}
+
+.about-content--text {
+  color: var(--mainColor);
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
