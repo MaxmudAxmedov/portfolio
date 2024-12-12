@@ -8,6 +8,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  scroll-behavior: smooth;
 }
 
 /* Sections
@@ -437,4 +438,78 @@ ol {
 .about-content--text {
   color: var(--mainColor);
   font-size: 20px;
+}
+
+.project-section {
+  padding: 60px 0;
+}
+
+.projetc-title {
+  font-size: 30px;
+  color: var(--mainColor);
+  margin-bottom: 40px;
+}
+
+.project-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-list--item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--mainColor);
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: var(--mainColor);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-list--item:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-10px);
+  box-shadow: 0px 3px 15px -2px var(--mainColor);
+}
+
+.item-img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+.item-content {
+  width: 45%;
+}
+
+.item-content--list__item {
+  background-color: var(--mainColor);
+  display: inline-block;
+  color: var(--bgColor);
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+.item-content-title {
+  font-size: 25px;
+  margin: 22px 0;
+}
+
+.item-content--links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 12px;
+  border-radius: 6px;
+  transform: translateY(120px);
+}
+
+.item-content--links a {
+  text-decoration: underline;
+  color: rgb(91, 91, 253);
 }/*# sourceMappingURL=main.css.map */
