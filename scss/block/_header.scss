@@ -5,9 +5,32 @@
     padding: 20px 0;
 }
 
-.nav{
+.header-logo {
+    color: var(--mainColor);
+    font-size: 22px;
+}
+
+.nav {
     width: 100%;
     width: 600px;
     display: flex;
     justify-content: space-between;
+}
+
+.nav-link {
+    color: var(--mainColor);
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease-in-out;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    border-color: red;
+}
+
+.header-settings--language {
+    background-color: transparent;
+    padding: 6px 12px;
+    color: var(--mainColor);
+    border-radius: 8px;
 }
