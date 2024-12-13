@@ -1,3 +1,9 @@
+header {
+    width: 100%;
+    position: fixed;
+    background-color: var(--bgColor);
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -29,8 +35,12 @@
 }
 
 .header-settings--language {
+    width: 50px;
+    appearance: none;
+    text-align: center;
     background-color: transparent;
     padding: 6px 12px;
     color: var(--mainColor);
     border-radius: 8px;
+    font-size: 18px;
 }

@@ -385,6 +385,12 @@ ol {
   overflow: hidden !important;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  background-color: var(--bgColor);
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -416,14 +422,20 @@ ol {
 }
 
 .header-settings--language {
+  width: 50px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  text-align: center;
   background-color: transparent;
   padding: 6px 12px;
   color: var(--mainColor);
   border-radius: 8px;
+  font-size: 18px;
 }
 
 .about-section {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .about-content {
@@ -512,4 +524,40 @@ ol {
 .item-content--links a {
   text-decoration: underline;
   color: rgb(91, 91, 253);
+}
+
+.skills-section {
+  padding: 60px 0;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 30px;
+  color: var(--mainColor);
+  margin-bottom: 30px;
+}
+
+.skills-box-title {
+  color: var(--mainColor);
+}
+
+.skills-box-list {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-box-list li {
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  padding: 6px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.skills-box-list li img {
+  width: 30px;
+  margin-right: 8px;
 }/*# sourceMappingURL=main.css.map */
