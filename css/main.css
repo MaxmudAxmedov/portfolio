@@ -389,6 +389,7 @@ header {
   width: 100%;
   position: fixed;
   background-color: var(--bgColor);
+  z-index: 100;
 }
 
 .header {
@@ -560,4 +561,41 @@ header {
 .skills-box-list li img {
   width: 30px;
   margin-right: 8px;
+}
+
+.experence-section {
+  padding: 60px 0;
+}
+
+.experence-title {
+  font-size: 30px;
+  color: var(--mainColor);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.experence-item {
+  color: var(--mainColor);
+}
+
+.experence-item--title {
+  margin: 18px 0;
+  font-size: 20px;
+}
+
+.experence-item--pozition {
+  font-size: 18px;
+}
+
+.experence-item--text {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+.experence-item--time {
+  font-size: 18px;
+}
+
+.experence-item hr {
+  margin: 20px 0;
 }/*# sourceMappingURL=main.css.map */
