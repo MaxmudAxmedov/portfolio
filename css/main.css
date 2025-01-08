@@ -310,7 +310,7 @@ template {
 }
 
 :root {
-  --bgColor: rgb(48, 45, 70);
+  --bgColor: rgb(82, 82, 82);
   --mainColor: #fff;
 }
 
@@ -388,7 +388,8 @@ ol {
 header {
   width: 100%;
   position: fixed;
-  background-color: var(--bgColor);
+  background-color: rgba(54, 54, 54, 0.9);
+  z-index: 100;
 }
 
 .header {
@@ -490,6 +491,7 @@ header {
 
 .item-img {
   width: 50%;
+  height: 280px;
   border-radius: 8px;
 }
 
@@ -518,7 +520,6 @@ header {
   width: 200px;
   padding: 12px;
   border-radius: 6px;
-  transform: translateY(120px);
 }
 
 .item-content--links a {
@@ -544,8 +545,8 @@ header {
 .skills-box-list {
   margin-top: 40px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .skills-box-list li {
@@ -555,9 +556,73 @@ header {
   border-radius: 6px;
   display: flex;
   align-items: center;
+  margin: 12px;
 }
 
 .skills-box-list li img {
   width: 30px;
   margin-right: 8px;
+}
+
+.experence-section {
+  padding: 60px 0;
+}
+
+.experence-title {
+  font-size: 30px;
+  color: var(--mainColor);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.experence-item {
+  color: var(--mainColor);
+}
+
+.experence-item--title {
+  margin: 18px 0;
+  font-size: 20px;
+}
+
+.experence-item--pozition {
+  font-size: 18px;
+}
+
+.experence-item--text {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+.experence-item--time {
+  font-size: 18px;
+}
+
+.experence-item hr {
+  margin: 20px 0;
+}
+
+.contact {
+  position: fixed;
+  right: 5px;
+  top: 80px;
+  z-index: 100;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--mainColor);
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+.contact-link {
+  color: var(--mainColor);
+}
+
+.cv-section {
+  padding-top: 80px;
 }/*# sourceMappingURL=main.css.map */
