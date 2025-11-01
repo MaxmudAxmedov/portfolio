@@ -57,14 +57,14 @@ function renderProjects(array, node) {
             <span class="item-content--links">
                 <a
                     target="_blank"
-                    href=${i.site}
-                    >Site</a
-                >
-                <a
-                    target="_blank"
                     href=${i.github}
                     >Github</a
                 >
+                <a
+                target="_blank"
+                href=${i.site}
+                >Site</a
+            >
             </span>
         </div>
     </li>
